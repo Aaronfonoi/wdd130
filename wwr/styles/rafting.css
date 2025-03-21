@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #40231a;
+    --secondary-color: #717933;
+    --accent-color1: #AF916E;
+    --accent-color2: #1BA595;
+    
+    --heading-font:  font-family: "Winky Sans", sans-serif;
+    --text-font: font-family: "Gidole", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fcfdfd;
+    font-family: var(--text-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+header {
+    background-color: var(--primary-color);
+    color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+footer p {
+    font-size: 1em;
+
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.article {
+    display: relative;
+    width: 25px;
+
+}
+
