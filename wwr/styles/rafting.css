@@ -43,13 +43,14 @@ footer p {
     font-size: 1em;
 
 }
-.hero img {
-    display: block;
+
+div .hero img {
+    position: relative;
     width: 100%;
     height: auto;
 }
-happy-rafters {
-    display: relative;
+article .happy-rafters {
+    position: absolute;
     width: 25px;
 
 }
