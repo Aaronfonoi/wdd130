@@ -1,0 +1,99 @@
+:root {
+
+    --text-font:   "Winky Sans", sans-serif;
+
+}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: var(--text-font);
+        font-size: 1.7em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+    }
+    header {
+        margin: 15px auto;
+        width: 700px;
+
+    }
+    h1 {
+        margin: 3rem;
+        font-size: 1.2em;
+        color: blueviolet;
+        text-align: center;
+    }
+    form {
+        width: 700px;
+        margin: 3px auto;
+        padding: 1rem;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: whitesmoke;
+        display: grid;
+    }
+    fieldset {
+        display: grid;
+        grid-gap: 1rem;
+        margin: 2rem;
+        border: 2px solid black;
+        padding: .5rem;
+    }
+    legend {
+        padding: 1rem;
+        color: blueviolet;
+        font-size: 1.5em;
+    }
+    label {
+        text-align: right;
+        padding-right: 1rem;
+
+    }
+    input, select, textarea {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+    input[type="checkbox"] {
+        width: 25px;
+        height: 25px;
+        vertical-align: bottom;
+    }
+    button {
+        margin: 2rem;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 1rem;
+        padding: 1;
+        font-size: 1.5rem;
+        box-shadow: 0 0 10px black;
+    }
+    button:hover {
+        background-color: aquamarine;
+    }
+    footer {
+        margin: 1rem auto 0;
+        width: 650px;
+        text-align: center;
+        font-size: 0.75em;
+        color: #777;
+        border-top: 1px solid #ccc;
+
+    }
+    .form-item {
+        display: grid;
+        align-items: center;
+    }
+    .column1 {
+        grid-template-columns: 3fr 1fr;
+        margin: 0.5rem 0;
+    }
+    .column2 {
+        grid-template-columns: 1fr 2fr;
+    }
+
+
+
+
+    
