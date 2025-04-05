@@ -101,7 +101,8 @@ main .map {
     justify-content: space-around;
 }
 main .team {
-    padding: 25px;
+    padding-left: 120px;
+    padding-right: 120px;
     display: flex;
     justify-content: space-around;
     
