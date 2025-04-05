@@ -95,9 +95,10 @@ main .info {
 main .map {
     display: flex;
     
-    justify-content: ;
+    
     align-self: center;
     padding: 40px;
+    justify-content: space-around;
 }
 main .team {
     padding: 25px;
