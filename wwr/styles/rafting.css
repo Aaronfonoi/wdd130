@@ -81,6 +81,36 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+main .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 40px;
+    margin-left: 60px;
+    
+    
+}
+
+main .map {
+    display: flex;
+    
+    justify-content: space-between;
+    align-self: center;
+    padding: 40px;
+}
+main .team {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    }
+    .column1{
+        padding: 10px;
+        margin-top: 10px;
+        
+    }
 
 
 
