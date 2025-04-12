@@ -113,6 +113,44 @@ main .team {
         margin-top: 10px;
         
     }
+    .call-to-action {
+        color: black;
+        padding: 50px;
+        display: grid;
+        background-color: #AF916E;
+        
+        
+        grid-template-rows: 20%;
+        grid-template-columns: 10%  1fr 1fr 10%;
+        .action-text{
+            grid-column-start: 3;
+            padding: 20px;
+            
+        }
+        .action1{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            padding: 20px;
+            width: auto;
+            
+            
+        }
+        .action2{
+            display: grid;
+            grid-column-start: 5;
+            grid-column-end: 6;
+            padding: 20px;
+            width: auto;
+            
+
+        }
+    }
+    .trips-link {
+        color: violet;
+        text-decoration: underline;
+        
+    }
 
 
 
